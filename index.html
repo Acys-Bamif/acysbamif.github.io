@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acys Bamif</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/0c60fc5e1d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--top collapsible navigation on small screen and full on large-->
+	<nav class="nav">
+
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		
+		<div class="menu">
+			<ul>
+				<li><a class="link" href="index.html">HOME</a></li>
+				<li><a class="link" href="about.html">ABOUT</a></li>
+				<li><a class="link" href="#portfolio">PORTFOLIO</a></li>
+				<li><a class="link" href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+	
+	<div class="toTop"><a href="#">∆</a></div>
+
+<!-- header-->
+	<header class="header-main bg-ddf">
+		<img class="hero" src="images/banner.jpg">
+		
+		<div class="header">
+		
+			<div>
+				<img src="images/me3.png">
+			</div>
+			
+			<div>
+				<h2 class="sub-head">Hey! I am <big>Acys.</big>
+				<br>I'm a Web developer based in Nigeria</h2>
+				<p class="block">My real name is <big>Mubarak Balogun</big>, I’m an approachable problem solver who values honesty and clarity. I’m friendly, and all about a collaborative process. I view a website as an integral part of an overall brand strategy. Brainstorming is my jam, and I love it almost as much as Music.</p>
+				
+				<div class="icons">
+					<a href="mailto:acysbamif@gmail.com"><i class="fa fa-envelope-o"></i><small><small>acysbamif@gmail.com</small></a>
+					<a href="tel:+2348066089043"><i class="fa fa-phone"></i><small>+234&nbsp;806&nbsp;608&nbsp;9043</small></a>
+					<a href="https://www.facebook.com/profile.php?id=100060012433390"><i class="fa fa-facebook"></i><small>Acys&nbsp;Bamif</small></a>
+					<a href="https://www.linkedin.com/in/acys-bamif-0224ab238"><i class="fa fa-linkedin"></i><small>Acys&nbsp;Bamif</small></a>
+				</div>
+				
+				<a class="button" href="about.html">MORE ABOUT ME!</a>
+			</div>
+		
+		</div>
+	
+	</header>
+	
+<!--slide down indicator animation-->
+	<div class="slides">
+		<div class="slideRight"> <p class="right">slide down ↔</p></div>
+		<div class="slideLeft"> <p class="left">slide down ↔</p></div>
+	</div>
+	
+<!--portfolio section-->
+	<section id="portfolio">
+	
+		<div>
+			<h2 class="sub-head"><hr>My portfolio</h2>
+			<p class="block slide-fl">Frequently your website is the first impression your customers will get, so make sure it’s a good one. Take a look at my portfolio below, if you think I’d be a good match send me an <a class="gray" href="mailto:acysbamif@gmail.com">email</a>. It's only a drop in the ocean compared to the entire list.<br>
+			Interested to see some more? Visit my <a class="gray" href="https://www.facebook.com/profile.php?id=100060012433390">facebook page.</a></p>
+		</div>
+		<div>
+			<img class="img" src="images/me2.png">
+		</div>
+	</section>
+	
+<!--some projects display-->
+	<section id="project">
+	
+		<div id="project-btn">
+			<button id="but4" onclick="openAllPro()">ALL</button>
+			<button id="but1" onclick="openPro1()">WEB DESIGN</button>
+			<button id="but2" onclick="openPro2()">JS GAMES</button>
+			<button id="but3" onclick="openPro3()">JS  APPS</button>
+		</div>
+
+		<div class="project">
+			<div class="project-div p-web">
+				<img src="images/itsecure.jpg">
+				<h3>TSecure</h3>
+				<div class="project-text">
+					<h4>Web design/development</h4>
+					<div class="project-tag">
+						<span>HTML</span>
+						<span>CSS</span>
+						<span>Javascript</span>
+						<span>JQuery</span>
+						<span>Bootstrap</span>
+						<span>Font-awesome</span>
+					</div>
+					<button onclick="openModal(0)">LEARN MORE</button>
+				</div>
+			</div>
+		
+			<div class="project-div p-game">
+				<img src="images/imemotiles.jpg">
+				<h3>Memotiles</h3>
+				<div class="project-text">
+					<h4>JS/DOM game</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					</div>
+					<button onclick="openModal(1)">LEARN MORE</button>
+				</div>
+			</div>
+			
+			<div class="project-div p-app">
+				<img src="images/iclock.jpg">
+				<h3>3 in one clock</h3>
+				<div class="project-text">
+					<h4>JS/DOM app</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					</div>
+					<button onclick="openModal(2)">LEARN MORE</button>
+				</div>
+			</div>
+
+			<div class="project-div p-web">
+				<img src="images/icloudify.jpg">
+				<h3>Cloudify</h3>
+				<div class="project-text">
+					<h4>Web design/development</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					<span>Font-awesome</span>
+					</div>
+					<button onclick="openModal(3)">LEARN MORE</button>
+				</div>
+			</div>
+			
+			<div class="project-div p-game">
+				<img src="images/inumberpad.jpg">
+				<h3>Number pad</h3>
+				<div class="project-text">
+					<h4>JS/DOM game</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					</div>
+					<button onclick="openModal(4)">LEARN MORE</button>
+				</div>
+			</div>
+						
+			<div class="project-div p-app">
+				<img src="images/irandomgen.jpg">
+				<h3>Random task app</h3>
+				<div class="project-text">
+					<h4>JS/DOM app</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					</div>
+					<button onclick="openModal(5)">LEARN MORE</button>
+				</div>
+			</div>
+						
+			<div class="project-div p-web">
+				<img src="images/iabdecorators.jpg">
+				<h3>AB decorators</h3>
+				<div class="project-text" >					
+					<h4>Web design/development</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					<span>JQuery</span>
+					<span>Bootstrap</span>
+					<span>Font-awesome</span>
+					</div>
+					<button onclick="openModal(6)">LEARN MORE</button>
+				</div>
+			</div>
+				
+			<div class="project-div p-game">
+				<img src="images/ifastmath.jpg">
+				<h3>Fast math</h3>
+				<div class="project-text" >					
+					<h4>JS/DOM game</h4>
+					<div class="project-tag">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>Javascript</span>
+					</div>
+					<button onclick="openModal(7)">LEARN MORE</button>
+				</div>
+			</div>
+				
+			<div class="project-div p-app">
+				<img src="images/icalculator.jpg">
+				<h3>JS Calculator</h3>
+				<div class="project-text" >
+					<h4>JS/DOM app</h4>
+					<div class="project-tag">
+						<span>HTML</span>
+						<span>CSS</span>
+						<span>Javascript</span>
+					</div>
+					<button onclick="openModal(8)">LEARN MORE</button>
+				</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	
+<!--project view modal-->
+<div id="modal"></div>
+
+<section id="cta">
+	<h2 class="sub-head"><hr>Just so you know</h2>
+	<div>
+		<p class="block">I’m interested in both freelance and employee opportunities especially working with teams on ambitious or large projects.</p>
+		<a class="button" href="acys_bamif_resume.pdf">DOWNLOAD RESUME</a>
+		<a class="button" href="contact.html">CONTACT ME</a>
+	</div>
+	<div>
+		<img class="img" src="images/coder.webp">
+	</div>
+</section>
+
+<!--site footer-->
+	<footer>
+
+		<div class="icons">
+			<a href="https://www.instagram.com/acysbamif"><i class="fa fa-instagram"></i><small>acysbamif@gmail.com</small></a>
+			<a href="https://www.codepen.io/Acys"><i class="fa fa-codepen"></i><small>+234&nbsp;806&nbsp;608&nbsp;9043</small></a>
+			<a href="https://www.facebook.com/profile.php?id=100060012433390"><i class="fa fa-facebook"></i><small>Acys&nbsp;Bamif</small></a>
+			<a href="https://www.github.com/Acys-Bamif"><i class="fa fa-github"></i><small>Acys&nbsp;Bamif</small></a>
+			<a href="https://www.linkedin.com/in/acys-bamif-0224ab238"><i class="fa fa-linkedin"></i><small>Acys&nbsp;Bamif</small></a>
+		</div>
+		<div>
+			<a href="index.html">HOME</a>.
+			<a href="about.html">ABOUT</a>.
+			<a href="#portfolio">PORTFOLIO</a>.
+			<a href="contact.html">CONTACT</a>
+			<p>©2023 Acys Bamif</p>
+		</div>
+
+		
+	</footer>
+	
+<!--external script link-->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+	
+	var _y;
+	
+function show(x,y) {
+	document.getElementById('but' + x).style.color = "#fff";
+	document.getElementById('but' + x).style.backgroundColor = "#06c";
+	_y = y;
+	for(i = 0; i < 3; i ++) {
+		document.getElementsByClassName('p-' + _y)[i].style.display = "inline-block";
+	}
+}
+function hide(x,y) {
+	document.getElementById('but' + x).style.color = "#000";
+	document.getElementById('but' + x).style.backgroundColor = "transparent";
+	_y = y;
+	for(i = 0; i < 3; i ++) {
+		document.getElementsByClassName('p-' + _y)[i].style.display = "none";
+	}
+}
+function show2(x,y) {
+	document.getElementById('but' + x).style.color = "#000";
+	document.getElementById('but' + x).style.backgroundColor = "transparent";
+	_y = y;
+	for(i = 0; i < 3; i ++) {
+		document.getElementsByClassName('p-' + _y)[i].style.display = "inline-block";
+	}
+}
+function hide2() {
+	document.getElementById('but4').style.color = "#000";
+	document.getElementById('but4').style.backgroundColor = "transparent";
+}
+
+function trans() {
+	document.getElementsByClassName('project')[0].classList.remove("trans2");
+	document.getElementsByClassName('project')[0].classList.add("trans");
+	setTimeout(cancelTrans, 0);
+}
+function cancelTrans() {
+	document.getElementsByClassName('project')[0].classList.remove("trans");
+	document.getElementsByClassName('project')[0].classList.add("trans2");
+}
+
+//button switch
+function openPro1() {
+	show(1,'web'); hide(2,'game'); hide(3,'app'); hide2(); trans();
+}
+function openPro2() {
+	show(2,'game'); hide(1,'web'); hide(3,'app'); hide2(); trans();
+}
+function openPro3() {
+	show(3,'app'); hide(1,'web'); hide(2,'game'); hide2(); trans();
+}
+
+function openAllPro() {
+	show2(1,'web'); show2(2,'game'); show2(3,'app');
+	document.getElementById('but4').style.color = "#fff";
+	document.getElementById('but4').style.backgroundColor = "#06c"; trans();
+}
+
+openAllPro();
+
+(function () {
+	"use strict";
+	
+// define variables
+	var h2s = document.querySelectorAll(".project-div");
+	
+// check if an element is in viewport
+	function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+			rect.top >= 0 &&
+			rect.left >= 0 &&
+			rect.bottom <=
+			(window.innerHeight || document.documentElement.clientHeight) &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+	}
+	
+//initialize the default look with js so that it does not affect the look when script is disabled
+	for (var i = 0; i < h2s.length; i++) {
+		h2s[i].classList.add("animate-t-card");
+	}
+		
+//call back function codes
+	function callbackFunc() {
+		for (var i = 0; i < h2s.length; i++) {
+			if (isElementInViewport(h2s[i])) {
+				h2s[i].classList.add("t-card-in-view");
+			}
+			else {
+				h2s[i].classList.remove("t-card-in-view");
+			}
+		}
+	}
+	
+	// listen for events
+	window.addEventListener("load", callbackFunc);
+	window.addEventListener("resize", callbackFunc);
+	window.addEventListener("scroll", callbackFunc);
+})();
+
+	</script>
+</body>
+</html>
