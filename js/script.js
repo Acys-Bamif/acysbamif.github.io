@@ -30,7 +30,7 @@ var myProjects = [
 		img:'images/itsecure.jpg',
 		head:'TSecure',
 		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'tsecure/index.html',
+		link:'https://acys-bamif.github.io/tsecure',
 		info:'A blue themed 3 pages bootstrap4 website template about cloud services and cyber security, showing their services and contact form to get in touch.'
 	},{
 		img:'images/imemotiles.jpg',
@@ -48,7 +48,7 @@ var myProjects = [
 		img:'images/icloudify.jpg',
 		head:'Cloudify',
 		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'cloudify/index.html',
+		link:'https://acys-bamif.github.io/cloudify',
 		info:'web hosting services website template showcasing their services, testimonials and subscription plan with contact form to get in touch.'
 	},{
 		img:'images/inumberpad.jpg',
@@ -66,7 +66,7 @@ var myProjects = [
 		img:'images/iabdecorators.jpg',
 		head:'AB Decorators',
 		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'abdecorators/index.html',
+		link:'https://acys-bamif.github.io/abdecorators',
 		info:'A 3 pages website template about interior designers designed with flexible box layout (flexbox). showing their services, some of their projects, staffs and contact form with address to get in touch.'
 	},{
 		img:'images/ifastmath.jpg',
