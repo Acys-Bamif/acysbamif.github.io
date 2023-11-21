@@ -39,7 +39,7 @@ var achObj = [
 		val:50,
 		ind:0
 	},{
-		val:35,
+		val:20,
 		ind:0
 	},{
 		val:30,
