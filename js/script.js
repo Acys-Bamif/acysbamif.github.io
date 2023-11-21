@@ -27,11 +27,11 @@ function hideModal() {
 var myProjects = [
 	
 	{
-		img:'images/itsecure.jpg',
-		head:'TSecure',
+		img:'images/ipaw.jpg',
+		head:'Paw.com',
 		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'https://acys-bamif.github.io/tsecure',
-		info:'A blue themed 3 pages bootstrap4 website template about cloud services and cyber security, showing their services and contact form to get in touch.'
+		link:'https://paw.com',
+		info:'Paw.com is an online pet supplies store that offers a wide range of products for cats, dogs and other small animals, fully designed with shopify .'
 	},{
 		img:'images/imemotiles.jpg',
 		head:'Memotiles',
@@ -45,29 +45,11 @@ var myProjects = [
 		link:'https://codepen.io/Acys/pen/ExeymOW',
 		info:'Time is a very important thing in life, thats the reason for using a perfect 3 in 1 Clock app with <br><b>~Time and Date, <br>~Countdown timer</b> and <br><b>~stop watch</b> with <b>pause, continue</b> and <b>Reset</b> control.'
 	},{
-		img:'images/icloudify.jpg',
-		head:'Cloudify',
+		img:'images/idiscerndecor.jpg',
+		head:'Discerndecor',
 		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'https://acys-bamif.github.io/cloudify',
-		info:'web hosting services website template showcasing their services, testimonials and subscription plan with contact form to get in touch.'
-	},{
-		img:'images/inumberpad.jpg',
-		head:'Number pad',
-		tag:'HTML5 / DOM GAME',
-		link:'images/numberpad.jpg',
-		info:'A visual game with <b>bar timer</b> also with the ability to switch between <b>reverse</b> and <b>normal</b> mode and also packed with difficulty level for every age <b>(junior, senior and master)</b>.<br><small>for piracy reason there is no online preview for this game but you can view detailed screen shot here:</small>'
-	},{
-		img:'images/irandomgen.jpg',
-		head:'Number & Password generator',
-		tag:'WEB APP',
-		link:'https://codepen.io/Acys/pen/qBMNjdo',
-		info:'finding a random digit or new password is what this app is all about, with options for <b>number of outcomes, min and max value</b> to choose from and option to <b>include numbers</b> and(or) <b>symbols</b> while generating password.'
-	},{
-		img:'images/iabdecorators.jpg',
-		head:'AB Decorators',
-		tag:'WEB DESIGN / DEVELOPMENT',
-		link:'https://acys-bamif.github.io/abdecorators',
-		info:'A 3 pages website template about interior designers designed with flexible box layout (flexbox). showing their services, some of their projects, staffs and contact form with address to get in touch.'
+		link:'https://discerndecor.com',
+		info:'Discerndecor is an online interior decorators and supplies store that offers a wide range of products from room lighting to furnitures and kitchen supplies, fully designed with WordPress Woocomerce.'
 	},{
 		img:'images/ifastmath.jpg',
 		head:'Fast math',
@@ -75,11 +57,29 @@ var myProjects = [
 		link:'images/fastmath.jpg',
 		info:'A basic arithmetic game with <b>count-down timer</b> that value UX giving players chance to switch between modes<b> (keys, quiz and input)</b>, and also packed with difficulty level for every age<b> (junior, senior and master)</b>.<br><small>for piracy reason there is no online preview for this game but you can view detailed screen shot here:</small>'
 	},{
-		img:'images/icalculator.jpg',
-		head:'Calculator',
+		img:'images/irandomgen.jpg',
+		head:'Number & Password generator',
 		tag:'WEB APP',
-		link:'https://codepen.io/Acys/pen/ExLbEWX',
-		info:'You need to solve arithmetic problems at some point in time but a perfect calculator with <b>Dual display</b> with button to switch between <b>Light and Dark mode</b> will save you the stress .'
+		link:'https://codepen.io/Acys/pen/qBMNjdo',
+		info:'finding a random digit or new password is what this app is all about, with options for <b>number of outcomes, min and max value</b> to choose from and option to <b>include numbers</b> and(or) <b>symbols</b> while generating password.'
+	},{
+		img:'images/itsecure.jpg',
+		head:'TSecure',
+		tag:'WEB DESIGN / DEVELOPMENT',
+		link:'https://acys-bamif.github.io/tsecure',
+		info:'A blue themed bootstrap4 website template about cloud services and cyber security, showing their services and contact form to get in touch.'
+	},{
+		img:'images/ifixson.jpg',
+		head:'Fixson',
+		tag:'WEB DESIGN / DEVELOPMENT',
+		link:'https://acys-bamif.github.io/fixson',
+		info:'A blue themed bootstrap4 website template about Building repair and maintenance services, showing their services, testimonials, contact info and form to get in touch.'
+	},{
+		img:'images/iabdecorators.jpg',
+		head:'AB Decorators',
+		tag:'WEB DESIGN / DEVELOPMENT',
+		link:'https://acys-bamif.github.io/abdecorators',
+		info:'A 3 pages website template about interior designers designed with flexible box layout (flexbox). showing their services, some of their projects, staffs and contact form with address to get in touch.'
 	}
 ];
 
