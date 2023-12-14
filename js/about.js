@@ -41,9 +41,6 @@ var achObj = [
 	},{
 		val:20,
 		ind:0
-	},{
-		val:30,
-		ind:0
 	}
 ];
 	
@@ -54,7 +51,7 @@ function resetBars() {
 }
 
 function resetAchs() {
-	for(i = 0; i < 3; i++) {
+	for(i = 0; i < 2; i++) {
 		achObj[i].ind = 0;
 	}
 }
@@ -82,7 +79,7 @@ function bars() {
 }
 
 function achs() {
-	for(i = 0; i < 3; i++) {
+	for(i = 0; i < 2; i++) {
 		if(achObj[i].ind < achObj[i].val) {
 			achObj[i].ind += Math.round(achObj[i].val/10);
 			document.getElementById('achiev').getElementsByTagName('span')[i].innerHTML = achObj[i].ind + '+';
