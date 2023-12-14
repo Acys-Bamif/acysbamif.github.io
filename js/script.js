@@ -12,7 +12,7 @@ function openModal(xx) {
 	'<h3>'+ myProjects[xx].head +'</h3>'+
 	'<h5>'+ myProjects[xx].tag +'</h5><hr>'+
 	'<p>'+ myProjects[xx].info +'</p>'+
-	'<a href="'+ myProjects[xx].link +'">HAVE A LOOK</a>'+
+	'<a href="'+ myProjects[xx].link +'">CHECK IT OUT</a>'+
 	'<button class="closeButton" onclick="hideModal()">×</button></		div></div>';
 	
 	modal.style.display = "block";
