@@ -36,10 +36,10 @@ var barObj = [
 
 var achObj = [
 	{
-		val:50,
+		val:20,
 		ind:0
 	},{
-		val:20,
+		val:25,
 		ind:0
 	}
 ];
